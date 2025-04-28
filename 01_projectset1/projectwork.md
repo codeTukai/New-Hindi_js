@@ -5,7 +5,7 @@
 
 # Solution Code
 
-## project 1
+## project 1 on Switching Colors
 
 ~~~ javascript 
 const buttons = document.querySelectorAll('.button');
@@ -73,5 +73,19 @@ form.addEventListener('submit', function (e) {
    
 });
 
+
+~~~
+
+# project 3 on Digital Clock
+
+# solution code here
+
+~~~ Javascript 
+const clock = document.getElementById('clock');
+
+      setInterval(function () {
+        let date = new Date();
+        clock.innerHTML = date.toLocaleTimeString();
+      }, 1000);
 
 ~~~
